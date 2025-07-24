@@ -1,50 +1,64 @@
-# Welcome to your Expo app 👋
+# 📱 LLM UI Playground
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+   This is a mobile UI playground that allows users to modify the UI using natural language commands, simulating how an LLM might interpret layout instructions.
 
-## Get started
+   Designed for the [LLM Coding Challenge], it demonstrates prompt interpretation, real-time layout updates, and dynamic UI rendering using React Native and Zustand.
 
-1. Install dependencies
+# ✨ Features
 
-   ```bash
+   ## 🧠 Natural Language Prompt Bar — type commands like:
+
+      Change title to Settings
+
+      Make the background green
+
+      Move save button to top
+
+      Reset
+
+   ## ⚙️ Prompt-to-Layout Interpreter
+
+      Parses user input into structured JSON
+
+      Applies updates using Zustand layout store
+
+   ## 💡 Mock LLM Layer
+
+      Interprets freeform prompts
+
+      Simulates what an LLM would return in a real integration
+
+   ## 🎨 Dynamic UI
+
+      Title, background color, and button position update live
+
+      Uses LayoutAnimation for smooth transitions
+
+   ## 🔁 Reset Functionality
+
+      Reverts the UI to its original state on demand
+
+# 📸 Demo
+
+   Insert Loom or video link here when ready
+
+# 🛠️ Tech Stack
+
+   Expo (React Native)
+
+   Zustand for state management
+
+   mockLLM.ts for prompt interpretation
+
+   LayoutAnimation for smooth transitions
+
+# 🚀 Getting Started
+
+   git clone https://github.com/bruno-repo/ui-playground
+   cd ui-playground
    npm install
-   ```
-
-2. Start the app
-
-   ```bash
    npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+# 🧠 Reflection
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   This playground explores how developers and LLMs can collaborate to evolve UIs via natural interaction. It's flexible, extendable, and LLM-ready — and just a ton of fun to build. 😄
